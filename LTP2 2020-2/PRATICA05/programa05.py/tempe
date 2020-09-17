@@ -1,0 +1,17 @@
+#criar um log de temeraturas
+#ler N temperaturas
+#calcular a temperatura media
+#encontrar as temperaturas acima da media
+#encontar a amaior temperatura
+#encontrar a menor temperatura
+
+Temperaturas = []
+#Pergunta ao usuário quantos valoeres ele deseja informar
+quantidade = int(input("Quantidade de valores que deseja informar:"))
+
+#Le os núemros para a lista
+while len(Temperaturas) < quantidade:
+  numero = int(input('Valor:'))
+  numeros.append(numero)
+
+  
