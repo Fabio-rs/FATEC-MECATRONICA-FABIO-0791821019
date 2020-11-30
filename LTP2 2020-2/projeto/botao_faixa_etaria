@@ -1,0 +1,144 @@
+<?php
+session_start();
+
+    echo "<script>
+            alert('Jogo para maiores de 18.');
+        </script>";
+
+//apartir daqui faz o cadastro do usuario ao clicar no botão cadastrar que receber o nome de btnCadastrar
+$btnCadastrar = filter_input(INPUT_POST, 'btnCadastrar', FILTER_SANITIZE_STRING);
+if($btnCadastrar){
+include_once ("conn/conexao.php");
+$dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);
+$dados['senha']= md5($_POST["senha"]);
+//aqui insere os dados na tb_usuario
+$result_usuario = "INSERT INTO tb_usuario(permissao, nome, dtnasci, email, senha, saldo)VALUES(
+    '".$dados['permissao']."',
+    '".$dados['nome']."',
+    '".$dados['dtnasci']."',
+    '".$dados['email']."',
+    '".$dados['senha']."',
+    '".$dados['saldo']."'
+    )";
+$resultado_usuario = mysqli_query($conexao, $result_usuario) or die (mysqli_error($conexao));
+if($resultado_usuario):
+    echo "<script>
+            alert('Cadastrado Com Sucesso.');
+            window.location='login.php';
+        </script>"; 
+else:
+    echo "<script>
+            alert('Ocorreu um erro ao cadastrar, entre em contato com o administrador.');
+            window.location='login.php';
+        </script>";
+endif;
+}
+
+?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
+<title>Lance Web</title>
+<!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
+<!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<style type="text/css">
+
+    body{ 
+        background-color:#0A8AF5;
+    }
+
+    /*Aqui se move os botões*/
+    .botao{
+        text-align: center;
+        margin-top: -15%;
+    }
+
+    /*fonte da pagina*/
+    .font{
+        color:white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .mover{
+
+    }
+
+</style>
+  </head>
+  <body>
+    <div class="container" align="center" >
+        <img src="img/logomarca.png" class="img-responsive">
+            <form class="form-group" action="" method="post">
+                <div class="col-md-4 col-md-offset-4">
+                <label class="font">Nome</label></label>
+                <input class="form-control" type="text" name="nome" maxlength="50" value="Digite seu nome" onfocus="this.value='';" style="text-align: center;" required><br><br>
+
+                <label class="font">E-mail</label>
+                <input class="form-control" type="email" name="email" maxlength="50" value="Digite seu email" onfocus="this.value='';" style="text-align: center;" required><br><br>
+
+
+            <div class="col-md-8 col-md-offset-2">
+                <label class="font">Data de Nascimento</label>
+                <input class="form-control dtnasci" type="date" name="dtnasci" maxlength="10" onfocus="this.value='';"  style="text-align: center;" required/><br><br>
+            </div>
+
+            <div class="col-md-6 col-md-offset-3">
+                <label class="font">Senha</label>
+                <input class="form-control" type="password" name="senha" maxlength="8" style="text-align: center;" required><br><br>
+            </div>
+
+            <div class="col-md-6 col-md-offset-3">
+                <input class="form-control" type="hidden" name="saldo" value="0" readonly> <!-- Hidden deixa invisivel -->
+            </div>
+
+            <div class="col-md-4 col-md-offset-1"> 
+                <a href="index.php"><input class="btn btn-danger btn-lg" type="button" value="Voltar"></a>
+            </div>
+
+            <div class="col-md-5 col-md-offset-1">
+                <input class="btn btn-info btn-lg submit-botao" type="submit" value="Cadastrar" name="btnCadastrar">
+            </div>
+
+            </div><!-- fim div para mover a label e os input basta mudar os números no md e no offset -->
+        </form><!-- fim do formulario -->
+</div><!-- fim div container -->
+
+    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- script da idade, usuario menores de 18 não podem se cadastrar -->
+<script>
+      $('.dtnasci').on('input',function(){
+        var dtnasci = $(this).val();
+        var data1 = new Date(dtnasci);
+        var data2 = new Date(new Date() - data1);
+        var idade = (data2.toISOString().slice(0, 4) - 1970);
+        if(idade < 18){
+            $('.submit-botao').prop('disabled',true)
+            $('.resposta-msg').html('Você não pode se cadastrar').show();
+        }else{
+            $('.submit-botao').prop('disabled',false);
+            $('.resposta-msg').html('').hide();
+        }
+    })
+</script>
+
+<!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+<script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
