@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
     <head>
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -36,7 +36,7 @@
                  <h2>Crianças</h2>
                  <p>Dicas para crianças se distrairem.</p>
                  <div>
-                     <img src="https://oimparcial.com.br/app/uploads/2019/09/ilustracao-em-vetor-de-criancas-brincando_29937-2012.jpg"
+                     <img src="https://oimparcial.com.br/app/uploads/2019/09/ilustracao-em-vetor-de-criancas-brincando_29937-2012.jpg" height="10%" width="10%"
 
                  </div>
              </section>
@@ -44,16 +44,34 @@
             <section id="adolecentes">
                  <h2>adolecentes</h2>
                  <p>Dicas para adolecentes se distrairem.</p>
+                  <div>
+                     <img src="https://image.freepik.com/vetores-gratis/desenhos-animados-meninos-e-meninas-adolescentes_18591-52572.jpg" height="10%" width="10%"
+
+                 </div>
+
+
              </section>
 
             <section id="adultos">
                  <h2>adultos</h2>
                  <p>Dicas para adultos se distrairem.</p>
+                  <div>
+                     <img src="https://2.bp.blogspot.com/-zQwVymw5nt0/WbKpzlyDnHI/AAAAAAAAABo/X_Y3n1dk_ecLhXhZFFlahv_VUR8uc6HswCLcBGAs/w1200-h630-p-k-no-nu/Adultos-aute%25CC%2582nticos-jovens-seguros.png" height="10%" width="10%"
+
+                 </div>
+
+
              </section>
 
             <section id="alunos do mestre">
                  <h2>alunos do mestre</h2>
                  <p>Dicas para alunos do mestre se distrairem.</p>
+                  <div>
+                     <img src="https://t0.cdn3x.com/t/240/0002264617/000.jpg" height="10%" width="10%"
+
+                 </div>
+
+
              </section>
 
        <section id="contato">
@@ -61,7 +79,7 @@
            <p>Converse com a gente</p>
 
            <div>
-               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi3S0mqTa1jJdXxZCqFgJ60ywhuK7ZIvw__g&usqp=CAU" alt="telefone">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi3S0mqTa1jJdXxZCqFgJ60ywhuK7ZIvw__g&usqp=CAU" height="5%" width="5%" alt="telefone">
                <p> <a href="tel:1199991111"> (11) 9999-1111 </a>
 
                </p>
@@ -69,7 +87,7 @@
            </div>
 
            <div>
-               <img src="https://img.ibxk.com.br/2017/08/25/25141314216229.jpg?w=1120&h=420&mode=crop&scale=both" alt="email">
+               <img src="https://img.ibxk.com.br/2017/08/25/25141314216229.jpg?w=1120&h=420&mode=crop&scale=both"height="5%" width="5%" alt="email">
                <p> <a href="mailto:contato@miacalifa.sex"> contato@miacalifa.sex </a>
 
                </p>
