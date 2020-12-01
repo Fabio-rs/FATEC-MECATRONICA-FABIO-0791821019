@@ -1,12 +1,16 @@
   <!DOCTYPE html>
 <html>
     <head>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@300&family=Yellowtail&display=swap" rel="stylesheet">
+
+       <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@300&family=Yellowtail&display=swap" rel="stylesheet">
        <link rel="stylesheet" type="text/css" href="/home/Fabiors73/projeto-ltp2-2020-2/static/css/normalize.css"
 
 
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+  <link rel="stylesheet"  href="normalize.css">
+  <link rel="stylesheet"  href="syle.css">
 
         <meta charset="UTF-8"/>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQM1n5b29PtJWplKF28iTRjQUQV-aWkSzgPg&usqp=CAU" height="50%" width="100%"></>
@@ -63,7 +67,7 @@
 
              </section>
 
-            <section id="alunos do mestre">
+                     <section id="alunos do mestre">
                  <h2>alunos do mestre</h2>
                  <p>Dicas para alunos do mestre se distrairem.</p>
                   <div>
