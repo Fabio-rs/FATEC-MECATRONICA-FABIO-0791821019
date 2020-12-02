@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    <body bgcolor="gray"></body>
+        <meta charset="UTF-8"/>
+        <title>Meu Currículo</title>
+        <center>
+    </head>
+    <body>
+        <!-- Nome -->
+        <h1>Fabio Rodrigues da Silva</h1>
+
+        <!-- Texto de introdução -->
+        <h2>Sobre mim</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3OqTO9dL3tQjGEZhDL9y8pATs7xt5LG9-ow&usqp=CAU">
+        <p>Meu Nome é Fabio, sou mandrilhador CNC, atuo no ramo de usinagem a mais de 30 anos.</p>
+        <!-- Experiência Proficional -->
+        <h2>Experiência Proficional</h2>
+        <p>POLIMOLD SA </p>                                                                                            Fev/2018 – Atual
+        <p>Empresa Nacional  de médio porte – segmento de ferramentaria.</p>
+Mandrilhador CNC.</p>
+
+<p>•	Reportando-se ao supervisor de usinagem executando serviços em maquina CNC MAZAK .</p>
+<p>•	Executando toda a preparação de maquina , programando 2D e operando .</p>
+<p>•	Executando serviços de usinagem em porta moldes especiais.</p>
+
+        <!-- Formção -->
+        <h2>Formação</h2>
+        <p>Tecnologo Mecatrônico - Fatec Santo André - Cursando.</p>
+        <!-- Habilidades e Competencias -->
+        <h2>Habilidades e Competencias</h2>
+        <p>•	Sólida experiência nas atividades relativas a área de desenvolvimento de usinagem e conformação de materiais.</p>
+        <p>•	Amplo conhecimento dos mais variados tipos de materiais usados em ferramentaria e equipamentos, bem como os processos de usinagem dos mesmos.</p>
+        <p>•	Vasta experiência em operação de maquinas CNC e maquinas convencionais desenvolvida em mais de 20 anos trabalhando em equipamentos de pequeno, médio e grande porte.</p>
+        <p>•	Dominio de operação e programação dos comandos: FIDIA , SIEMENS 810 D e 840 D, MACK 9 , MITISUBISHI M65 , M65S, M7000 , HEIDENHEIIN, FANUC e programação em POWER MILL.</p>
+        <p>•	Experiencia em acompanhar serviços de usinagem terceirizada , follow-up.</p>
+        <!-- Informações Adicinais -->
+        <h2>Cursos Complementares</h2>
+        <p>•	Mecanica Geral – SENAI – SP.</p>
+        <p>•	Operador e programandor de maquinas CNC –SENAI -SP.</p>
+        <p>•	Operação de comando numérico FIDIA, programação na linguagem ISO, elaboração de procedimento e programação na linguagem ISOGRAPH – FIDIA do Brasil. </p>
+        <p>•	Programador 3D em Power Mill 2010 –SENAI –SP.</p>
+        <p>•	Modelamento 3D 3m Cimatron – FIT Solutions.- SP.</p>
+        <h2>Informações de Contato.</h2>
+
+          <section id="contato">
+        <h2>contato</h2>
+           <p>Converse com a gente</p>
+
+           <div>
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi3S0mqTa1jJdXxZCqFgJ60ywhuK7ZIvw__g&usqp=CAU" height="5%" width="5%" alt="telefone">
+               <p> <a href="tel:11973281018"> (11) 97328-1018 </a>
+
+               </p>
+
+           </div>
+
+           <div>
+               <img src="https://img.ibxk.com.br/2017/08/25/25141314216229.jpg?w=1120&h=420&mode=crop&scale=both"height="5%" width="5%" alt="email">
+               <p> <a href="mailto:fabiors7337@gmail.com"> fabiors7337@gmail.com </a>
+
+               </p>
+
+           </div>
+
+           </section>
+
+     <footer>
+         <a href="#topo">VOLTAR</a>
+         <p>Desenvolvido por : Fabio0791821019</p>
+     </footer>
+
+
+
+
+
+
+
+
+    </body>
+</html>
