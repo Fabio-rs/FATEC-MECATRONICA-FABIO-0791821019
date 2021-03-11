@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="utf-8">
+	<title>Chocolate Dreams</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="estilo-chocolate.css">
+	<link rel="icon" type="text/css" href="icone.png">
+</head>
+
+<body>
+      <header>
+      	<nav>
+      		<a href="#origem">Origem</a>
+      		<a href="#cultivo">Cultivo</a>
+      		<a href="#utilidade">Utilidade</a>
+      		<a href="">Galeria</a>
+      		<a href="">Cursos</a>
+      		<a href="">Inscrição</a>
+      		<a href="#fabricantes">Principais Fabricantes</a>
+      		<a href="#consumidores">Países Consumidores</a>
+      		<a href="#contato">Contato</a>
+      	</nav>
+
+      	<div id="logo">
+      		<img src="logo-chocolate.png" width="50%" alt="Logotipo Chocolate Dreams">
+      	</div>
+
+      </header>
+
+      <h1>Chocolate Dreams</h1>
+
+      <h2 id="origem">Origem</h2>
+
+      <div class="esquerda">
+
+      <img src="origem.png" width="400" alt="Foto de bombons">
+
+      <figcaption>Bombons de Chocolate</figcaption>
+
+  </div>
+
+      <p>
+      	O chocolate é um alimento feito com base na amêndoa fermentada e torrada do cacau. Sua origem remonta às civilizações pré-colombianas da América Central. A partir dos Descobrimentos, foi levado para a Europa, onde se popularizou, especialmente a partir dos séculos XVII e XVIII. Contudo, devido às necessidades climáticas para o cultivo do cacau, não é possível o seu plantio na Europa e por isso as colónias americanas de clima tropical úmido continuaram a fornecer a matéria-prima. Atualmente os maiores produtores estão na África Ocidental.
+      </p>
+
+      <h2 id="cultivo">Cultivo</h2>
+
+
+      <div id="direita">
+      <img src="cultivo.png" width="400" alt="Foto de fatia de bolo de chocolate">
+
+
+      <figcaption>Bolo de chocolate</figcaption>
+  </div>
+
+      <p>
+      	O chocolate, tal como é consumido hoje, é resultado de sucessivos aprimoramentos realizados desde o início da colonização da América. O produto era consumido pelos nativos na forma de uma bebida quente e amarga, de uso exclusivo da nobreza. Os europeus passaram a adoçar e a misturar especiarias para adequá-lo ao seu gosto. Com o desenvolvimento dos processos industriais e técnicas culinárias, surgiu o chocolate com leite e depois na forma de um sólido.
+      </p>
+
+
+      <h2 id="utilidade">Utilidade</h2>
+
+      <div class="esquerda">
+
+      <img src="utilidade.png" width="400" alt="Foto de cupcakes">
+      <figcaption>Tendências dos Cupcakes</figcaption>
+  </div>
+
+      <p>
+      	Atualmente, é encontrado em diferentes formas que vão desde o sólido, como o chocolate em pó, as barras, os ovos e os bombons, e líquido, como achocolatado ou chocolate quente. Além de ser consumido puro, é também ingrediente de um grande número de alimentos como bolos (tortas, biscoitos, etc.), mousses, sorvetes e outros doces.
+      </p>
+
+      <h2 id="fabricantes">Principais Fabricantes</h2>
+
+      <dl>
+      	  <dd>Mars (EUA)</dd>
+      	  <dd>Nestlé (Suíça)</dd>
+      	  <dd>Ferrero (Itália)</dd>
+      	  <dd>Kraft Foods (EUA)</dd>
+      	  <dd>Hershey´s (EUA)</dd>
+      	  <dd>Perfetti Van Melle (Itália)</dd>
+      	  <dd>Lindt (Suíça)</dd>
+      	  <dd>Ezaki Glico (Japão)</dd>
+      	  <dd>Meiji Seika (Japão)</dd>
+      </dl>
+
+      <h2 id="consumidores">Países Consumidores</h2>
+
+      <dl>
+      	<dd>Suíça</dd>
+      	<dd>Alemanha</dd>
+      	<dd>Reino Unido</dd>
+      	<dd>Noruega</dd>
+      	<dd>Suécia</dd>
+      	<dd>Austrália</dd>
+      	<dd>Holanda</dd>
+      	<dd>Estados Unidos</dd>
+      	<dd>França</dd>
+      </dl>
+
+      <h2 id="contato">Nos Siga nas Redes Sociais</h2>
+
+      <div id="redes-sociais">
+
+     <a href="https://pt-br.facebook.com/" target="blank"><img src="logo-facebook.png" width="50" alt="Icone Facebook"></a>
+
+      <a href="https://www.instagram.com/" target="blank"><img src="logo-instagram.png" width="50" alt="Icone Instagram"></a>
+
+      <a href="https://www.youtube.com/" target="blank"><img src="logo-youtube.png" width="50" alt="Icone Youtube"></a>
+
+      </div>
+
+      <div id="voltar">
+
+     <a href="#logo"><img src="voltar.png" width="50" alt="Botão Voltar"><
+     	</div>
+
+      <footer>
+      	&copy; Chocolate Dreams | 2021
+      </footer>
+
+
+</body>
+
+</html>
