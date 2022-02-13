@@ -1,0 +1,78 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNBjjxoj08mQ0OfyZnMufWp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Fabio-rs/FATEC-MECATRONICA-FABIO-0791821019/blob/master/lista\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "L=[5,7,2,9,4,1,3]\n",
+        "\n",
+        "print(\"Tamanho da lista:\", len(L))\n",
+        "print(\"Maior valor:\", max(L))\n",
+        "print(\"Menor valor:\", min(L))\n",
+        "print(\"Soma:\", sum(L))\n",
+        "print(\"Ordem crescente:\", L.sort())\n",
+        "L\n",
+        "print(\"Ordem decrescente:\", L.reverse())\n",
+        "L"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lIeuxDlMZYbp",
+        "outputId": "05644450-abf0-48ad-c685-338e52a677cb"
+      },
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Tamanho da lista: 7\n",
+            "Maior valor: 9\n",
+            "Menor valor: 1\n",
+            "Soma: 31\n",
+            "Ordem crescente: None\n",
+            "Ordem decrescente: None\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[9, 7, 5, 4, 3, 2, 1]"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 33
+        }
+      ]
+    }
+  ]
+}
