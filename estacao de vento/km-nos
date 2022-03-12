@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+float milhas, quilometros;
+
+cout<< "\n Digite o total de quilometro: ";
+cin>> quilometros;
+
+milhas = quilometros / 1.852;
+
+  cout << "\n" << quilometros << "km equivalem a " << milhas << " milhas "; 
+}
